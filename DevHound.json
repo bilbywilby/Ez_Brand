@@ -1,0 +1,123 @@
+{
+  "$schema": "https://raw.githubusercontent.com/universal-foss-funding/schema/v1/funding.schema.json",
+  "version": "1.0.0",
+  "last_updated": "2026-08-05",
+  "project": {
+    "name": "DevHound",
+    "slug": "bilbywilby/Ez_Brand",
+    "repository_url": "https://github.com/bilbywilby/Ez_Brand.git",
+    "homepage_url": "https://devhound.app",
+    "short_description": "AI-powered code review assistant featuring the trademarked husky mascot",
+    "detailed_description": "DevHound automates code reviews, enforces team standards, and manages open-source asset compliance across repositories.",
+    "creation_date": "2024-01-01",
+    "license": {
+      "spdx_id": "MIT",
+      "license_file_url": "https://github.com/bilbywilby/Ez_Brand/blob/main/LICENSE",
+      "is_copyleft": false
+    },
+    "maintainers": [
+      {
+        "username": "bilbywilby",
+        "role": "BDFL",
+        "email": "branding@devhound.app"
+      }
+    ]
+  },
+  "funding_status": {
+    "seeking_funding": true,
+    "monthly_recurring_usd": 0,
+    "lifetime_total_usd": 0,
+    "last_verified_date": "2026-08-05"
+  },
+  "funding_options": [
+    {
+      "platform_type": "github_sponsors",
+      "platform_name": "GitHub Sponsors",
+      "active": true,
+      "profile_url": "https://github.com/sponsors/bilbywilby",
+      "account_handle": "bilbywilby",
+      "tax_deductible": false,
+      "tiers": [
+        {
+          "name": "Supporter",
+          "monthly_price_usd": 5,
+          "benefits": [
+            "Sponsor badge on profile",
+            "Name listed in README supporters section"
+          ]
+        },
+        {
+          "name": "Backer",
+          "monthly_price_usd": 25,
+          "benefits": [
+            "All Supporter benefits",
+            "Priority issue triage"
+          ]
+        },
+        {
+          "name": "Corporate Sponsor",
+          "monthly_price_usd": 250,
+          "benefits": [
+            "All Backer benefits",
+            "Logo placement on devhound.app per BRAND.md rules"
+          ]
+        }
+      ]
+    },
+    {
+      "platform_type": "open_collective",
+      "platform_name": "Open Collective",
+      "active": false,
+      "profile_url": "https://opencollective.com/devhound",
+      "account_handle": "devhound",
+      "tax_deductible": false
+    }
+  ],
+  "corporate_sponsorship": {
+    "accepts_corporate_sponsors": true,
+    "contact_email": "branding@devhound.app",
+    "terms_url": "https://devhound.app/sponsors/terms",
+    "current_sponsors": []
+  },
+  "use_of_funds_breakdown": {
+    "developer_compensation_percentage": 45,
+    "infrastructure_costs_percentage": 30,
+    "legal_and_compliance_percentage": 10,
+    "community_support_percentage": 10,
+    "reserve_and_emergency_percentage": 5,
+    "summary": "Funds cover maintainer time, CI/CD sandbox runner costs, trademark maintenance for the D-tag mascot, and community infrastructure."
+  },
+  "financial_transparency": {
+    "reports_location": "https://github.com/bilbywilby/Ez_Brand/tree/main/docs/financials",
+    "reporting_frequency": "quarterly",
+    "audited": false,
+    "policy_statement": "All incoming funds and infrastructure expenses are documented quarterly in the repository documentation."
+  },
+  "tax_and_legal": {
+    "entity_type": "individual",
+    "country_code": "US",
+    "legal_disclaimer": "Contributions to DevHound are personal gifts and non-deductible for tax purposes unless processed via an authorized fiscal host."
+  },
+  "milestone_goals": [
+    {
+      "title": "Dedicated CI Sandbox Infrastructure",
+      "target_amount_usd": 5000,
+      "current_amount_usd": 0,
+      "deadline": "2026-12-31",
+      "purposes": [
+        "Procure dedicated isolated instances for user model sandboxing",
+        "Maintain sub-second PR analysis turnaround"
+      ]
+    }
+  ],
+  "communication_channels": {
+    "support_email": "branding@devhound.app",
+    "security_email": "legal@devhound.app",
+    "issues_url": "https://github.com/bilbywilby/Ez_Brand/issues"
+  },
+  "governance": {
+    "model_type": "BDFL",
+    "decision_maker": "bilbywilby",
+    "governance_doc_url": "https://github.com/bilbywilby/Ez_Brand/blob/main/BRAND.md"
+  }
+}
