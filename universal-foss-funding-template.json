@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0.0",
+  "meta": {
+    "template": "universal-foss-funding-template",
+    "description": "Funding configuration for [Your Project Name] - Husky mascot open source project.",
+    "usage_notes": [
+      "Logo assets hosted at https://[your-domain]/assets/logo/",
+      "SVG versions preferred for documentation, PNG for favicons",
+      "See /docs/branding.md for brand guidelines"
+    ]
+  },
+  "project": {
+    "name": "DevHound",
+    "slug": "devhound",
+    "repository_url": "https://github.com/bilbywilby/devhound",
+    "homepage_url": "https://devhound.app",
+    "description_short": "AI-powered code review assistant with husky mascot branding",
+    "description_long": "DevHound is an open-source AI code review tool that integrates with GitHub PRs. Built by a small team passionate about sustainable OSS development.",
+    "maintainers": [
+      {
+        "github_username": "bilbywilby",
+        "role": "BDFL",
+        "email_public": "contact@devhound.app"
+      }
+    ],
+    "started_date": "2024-03-15",
+    "license_primary": {
+      "spdx_id": "MIT",
+      "url": "./LICENSE",
+      "copyleft": false
+    },
+    "logo_assets": {
+      "primary_svg": "https://devhound.app/assets/logo/husky-primary.svg",
+      "favicon_32x32": "https://devhound.app/assets/logo/favicon-32x32.png",
+      "social_card": "https://devhound.app/assets/logo/og-card.png",
+      "sponsor_badge": "https://devhound.app/assets/logo/sponsor-badge.svg"
+    }
+  },
+  "funding_status": {
+    "currently_seeking_funding": true,
+    "current_monthly_recurring_usd": 1250,
+    "total_donated_lifetime_usd": 18500,
+    "last_financial_update": "2026-08-01"
+  },
+  "funding_options": [
+    {
+      "platform_type": "github_sponsors",
+      "active": true,
+      "profile_url": "https://github.com/sponsors/bilbywilby",
+      "tier_structure": [
+        {
+          "name": "Supporter",
+          "monthly_usd": 5,
+          "benefits": ["Name in README contributors list"]
+        },
+        {
+          "name": "Backer",
+          "monthly_usd": 10,
+          "benefits": ["All Tier 1 benefits", "Discord supporter role", "Monthly changelog shoutout"]
+        },
+        {
+          "name": "Sponsor",
+          "monthly_usd": 25,
+          "benefits": ["All previous benefits", "Priority issue triage", "Vote on roadmap features"]
+        }
+      ],
+      "notes": "GitHub handles billing; we receive net amount monthly"
+    },
+    {
+      "platform_type": "opencollective",
+      "active": true,
+      "profile_url": "https://opencollective.com/devhound",
+      "collective_name": "DevHound Open Source Collective",
+      "financial_transparency_report_url": "https://opencollective.com/devhound/transactions",
+      "tax_deductible_in_countries": ["US", "DE", "FR", "NL"],
+      "notes": "Best option for EU-based donors seeking tax receipts"
+    },
+    {
+      "platform_type": "crypto",
+      "active": true,
+      "wallet_addresses": [
+        {
+          "cryptocurrency": "Bitcoin",
+          "ticker": "BTC",
+          "network": "mainnet",
+          "address": "bc1qxy2kgdygjrsqtzq2n0yrf2493p85kkf0qcjq7r",
+          "qr_code_url": "https://devhound.app/donate/btc-qr.png",
+          "hd_wallet_derivation_path": "m/44'/0'/0'/0/0",
+          "audit_note": "Verify transactions via blockstream.info; we publish all inbound tx weekly"
+        },
+        {
+          "cryptocurrency": "Ethereum",
+          "ticker": "ETH",
+          "network": "mainnet",
+          "address": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+          "supports_smart_contract": true,
+          "gas_token": "ETH",
+          "audit_note": "Etherscan confirms all donations publicly"
+        }
+      ],
+      "cold_storage_policy": "Hardware wallet (Ledger Nano S) with 2-of-3 multisig backup",
+      "transaction_logging_public": true,
+      "public_ledger_url": "https://blockstream.info/address/bc1qxy2kgdygjrsqtzq2n0yrf2493p85kkf0qcjq7r",
+      "notes": "Crypto donations are non-refundable. Record tx hash for your records."
+    }
+  ],
+  "corporate_sponsorship": {
+    "accepts_corporate_donations": true,
+    "enterprise_contact_email": "sponsors@devhound.app",
+    "sponsorship_levels": [
+      {
+        "name": "Platinum",
+        "annual_usd_minimum": 50000,
+        "benefits": ["Large logo on README & website", "Board seat nomination", "Early product access", "Quarterly strategy calls"]
+      },
+      {
+        "name": "Gold",
+        "annual_usd_minimum": 10000,
+        "benefits": ["Logo on README", "Logo on sponsor page", "Quarterly strategy calls"]
+      },
+      {
+        "name": "Silver",
+        "annual_usd_minimum": 1000,
+        "benefits": ["Name in contributors list", "Silver badge on sponsors page"]
+      }
+    ],
+    "existing_sponsors": [
+      {
+        "company_name": "TechFlow Inc",
+        "level": "Gold",
+        "logo_url": "https://devhound.app/assets/sponsors/techflow.svg",
+        "website_url": "https://techflow.io"
+      },
+      {
+        "company_name": "CodeSmith Labs",
+        "level": "Silver",
+        "logo_url": "https://devhound.app/assets/sponsors/codesmith.svg",
+        "website_url": "https://codesmith.dev"
+      }
+    ],
+    "notes": "Sponsorships are non-exclusive. Logo placement requires brand guide approval. We accept in-kind contributions (cloud credits, tools licenses)."
+  },
+  "grants_and_competition": {
+    "eligible_grants_programs": [
+      {
+        "program_name": "Mozilla Open Source Support",
+        "url": "https://foundation.mozilla.org/en/opp/mozilla-open-source-support/",
+        "typical_award_range_usd": [10000, 50000],
+        "has_applied": true
+      },
+      {
+        "program_name": "NLNet Foundation",
+        "url": "https://nlnet.nl/foundation/",
+        "typical_award_range_usd": [5000, 30000],
+        "has_applied": false
+      },
+      {
+        "program_name": "Google Summer of Code",
+        "url": "https://summerofcode.withgoogle.com/",
+        "typical_award_range_usd": [15000, 25000],
+        "has_applied": true
+      },
+      {
+        "program_name": "Outreachy",
+        "url": "https://www.outreachy.org/",
+        "typical_award_range_usd": [7000, 10000],
+        "has_applied": false
+      }
+    ],
+    "notes": "Applied to Mozilla MOS 2025 (pending). Planning GSoC 2026 application targeting $20k student stipends."
+  },
+  "use_of_funds_breakdown": {
+    "infrastructure_costs_percentage": 35,
+    "infrastructure_items": [
+      "CI/CD pipeline hosting (GitHub Actions)",
+      "Documentation site hosting (Vercel)",
+      "Domain name registration",
+      "Code signing certificates",
+      "Dependency update bots (Dependabot Premium)"
+    ],
+    "developer_compensation_percentage": 40,
+    "developer_compensation_items": [
+      "Maintainer stipends ($2k/month primary)",
+      "Contractor payments for features",
+      "Bug bounty rewards up to $5k per critical issue"
+    ],
+    "community_support_percentage": 15,
+    "community_support_items": [
+      "Discord moderation tools",
+      "Community events and hackathons",
+      "Localization efforts (i18n for 12 languages)"
+    ],
+    "legal_and_compliance_percentage": 5,
+    "legal_and_compliance_items": [
+      "Trademark registration for husky mascot",
+      "Patent defensive publications",
+      "Legal counsel retainers for DMCA responses"
+    ],
+    "reserve_and_emergency_percentage": 5,
+    "emergency_use_cases": [
+      "Security incident response (pen testing)",
+      "Unexpected infrastructure outages",
+      "Legal challenges from trolls/copyright claims"
+    ],
+    "notes": "Primary focus on maintainer sustainability. Target: one full-time maintainer by Q4 2026 (requires $60k/year = $5k/month recurring)."
+  },
+  "financial_transparency": {
+    "public_financial_reports_available": true,
+    "reports_location": "https://devhound.app/docs/financial-reports/",
+    "report_frequency": "quarterly",
+    "third_party_audit_completed": false,
+    "audit_organization": "N/A",
+    "audit_date": "N/A",
+    "blockchain_transaction_verification": true,
+    "public_wallet_address_for_donations": "bc1qxy2kgdygjrsqtzq2n0yrf2493p85kkf0qcjq7r",
+    "notes": "All donation inflows logged on transparency page within 48 hours. Outflows documented quarterly with line-item expenses."
+  },
+  "tax_and_legal": {
+    "entity_type": "individual",
+    "registered_country": "DE",
+    "tax_deductibility": {
+      "us_501c3": false,
+      "eu_nonprofit": false,
+      "uk_charity": false,
+      "canada_npo": false
+    },
+    "receipt_generation_available": true,
+    "receipt_request_method": "email form (Open Collective generates automatically)",
+    "legal_disclaimer": "Donations are gifts, not investments. No equity, no promise of return, no guaranteed feature delivery. All contributions support ongoing development at maintainer discretion."
+  },
+  "milestone_goals": {
+    "current_fundraising_goal": {
+      "goal_name": "Full-Time Maintainer Fund 2026",
+      "target_usd": 60000,
+      "deadline": "2026-12-31",
+      "progress_current_usd": 18500,
+      "what_this_funds": [
+        "Primary maintainer salary ($48k/year)",
+        "Health insurance contribution ($12k/year)"
+      ]
+    },
+    "past_fundraising_campaigns": [
+      {
+        "campaign_name": "Infrastructure Upgrade Q1 2025",
+        "date_range": "2025-01-01 to 2025-03-31",
+        "goal_usd": 5000,
+        "actual_usd": 4800,
+        "outcome_summary": "Upgraded CI pipelines, added 3 new integration tests, reduced build times by 40%"
+      }
+    ],
+    "roadmap_link": "https://github.com/bilbywilby/devhound/projects/1"
+  },
+  "communication_channels": {
+    "announcement_channel": "https://discord.gg/devhound",
+    "support_email": "help@devhound.app",
+    "issue_tracker": "https://github.com/bilbywilby/devhound/issues",
+    "security_reporting": "security@devhound.app",
+    "social_media": {
+      "twitter_x": "devhound_app",
+      "mastodon": "@devhound@fosstodon.org",
+      "linkedin": null,
+      "youtube": null,
+      "twitch": null,
+      "discord": "https://discord.gg/devhound"
+    }
+  },
+  "governance_model": {
+    "decision_making_structure": "BDFL",
+    "funding_allocation_authority": "Primary maintainer consults advisory council of 3 gold+ sponsors quarterly",
+    "term_limits_for_maintainers": "No term limits",
+    "contributor_onboarding_guide": "https://github.com/bilbywilby/devhound/blob/main/CONTRIBUTING.md",
+    "governance_documentation": "https://github.com/bilbywilby/devhound/blob/main/GOVERNANCE.md",
+    "notes": "BDFL model. Maintainer has final say on fund allocation. Advisory council provides non-binding input on major decisions over $10k."
+  },
+  "version_control": {
+    "funding_json_last_updated": "2026-08-05",
+    "changelog_url": "https://github.com/bilbywilby/devhound/commits/main/FUNDING.json",
+    "next_review_date": "2026-11-05"
+  }
+}
