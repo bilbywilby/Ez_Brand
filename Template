@@ -1,0 +1,174 @@
+Project
+MetadataPlaceholderTypeExample ValueRequiredNotes{{PROJECT_NAME}}stringEZ Cleaner✅Human-readable display name{{GITHUB_REPOSITORY_SLUG}}stringbilbywilby/ez_cleaner✅Use owner/repo format{{REPO_URL}}URLhttps://github.com/bilbywilby/ez_cleaner✅Full HTTPS URL{{HOMEPAGE_OR_DOCS_URL}}URLhttps://ezcleaner.dev❌Can be same as repo if no separate site{{SHORT_PROJECT_DESCRIPTION}}stringOne-click cache cleaner for Linux desktops✅≤120 chars recommended{{DETAILED_PROJECT_DESCRIPTION}}stringEZ Cleaner removes stale apt/dnf cache, orphaned packages...❌2-4 sentences max{{MAINTAINER_USERNAME_1}}stringbilbywilby✅GitHub username without @{{PRIMARY_MAINTAINER_OR_BDFL}}enumprimary_maintainer, BDFL, co_maintainer✅Pick one role descriptor{{OPTIONAL_CONTACT_EMAIL}}emailcontact@ezcleaner.dev❌Use a role alias, not personal email{{YYYY-MM-DD_OR_YEAR}}date2023-06-01 or 2023✅ISO 8601 preferred
+License
+PlaceholderTypeExample ValueRequiredNotes{{MIT/APACHE-2.0/GPL-3.0/etc}}SPDX IDMIT✅Must be valid SPDX identifier — see https://spdx.org/licenses/{{LICENSE_FILE_PATH_OR_URL}}path/URL./LICENSE or https://opensource.org/license/mit✅Relative path or full URL{{true_or_false}} (copyleft)booleanfalse (MIT), true (GPL)✅true if copyleft license
+Funding Status
+PlaceholderTypeExample ValueRequiredNotes{{true_or_false}} (seeking)booleantrue✅Toggle off when not actively fundraising{{0_or_amount}}number450✅Monthly recurring total in USD; use 0 if none{{optional_total}}number12500❌Lifetime total donations; round to nearest dollar{{YYYY-MM-DD}} (last update)date2026-07-15✅When this field was last verified
+Funding Options — Per-Platform Placeholders
+GitHub Sponsors
+PlaceholderTypeExampleRequiredNotes{{USERNAME}}stringbilbywilby✅Must match GitHub username{{TIER_1_NAME}}stringSupporter✅Short, memorable{{TIER_2_NAME}}stringBacker✅{{TIER_3_NAME}}stringSponsor✅{{BENEFIT_1}}, {{BENEFIT_2}}stringName in README, Discord role✅1-5 benefits per tier{{ALL_TIER_1_BENEFITS}}stringAll Tier 1 benefits✅Reference to stacked benefits{{TIER_2_EXCLUSIVE}}stringPriority issue triage✅What makes this tier worth upgrading to{{ALL_PREVIOUS_BENEFITS}}stringAll previous benefits✅Stack reference{{TIER_3_EXCLUSIVE}}string1:1 monthly video call✅Premium benefit{{OPTIONAL_PLATFORM_NOTES}}stringSponsorship billing handled by GitHub❌Platform-specific caveats
+Open Collective
+PlaceholderTypeExampleRequiredNotes{{COLLECTIVE_NAME}}stringez-cleaner✅URL slug on opencollective.com{{COLLECTIVE_DISPLAY_NAME}}stringEZ Cleaner Collective✅Display name{{OPTIONAL_REPORT_URL}}URLhttps://opencollective.com/ez-cleaner/transactions❌Link to transparency page{{US}}, {{EU}}, {{OTHER}}stringUS, DE, FR❌Country codes where deductible
+Patreon / Ko-fi / Buy Me a Coffee / Liberapay / IssueHunt
+PlaceholderTypeExampleRequiredNotes{{CREATOR_NAME}}stringezcleaner✅ (Patreon)Patreon username{{TIER_A_NAME}}stringCoffee Backer❌Membership tier name{{BENEFIT_A_1}}, {{BENEFIT_A_2}}stringBehind-the-scenes posts, Early releases❌{{COLLECTIVE_NAME}} (OC)stringez-cleaner✅ (OC)Same as above{{ORG_OR_USER}}/{{REPO}}stringbilbywilby/ez_cleaner✅ (IssueHunt)Full repo path{{optional_limit}}number500❌ (Liberapay)Weekly take limit in USD
+Crypto
+PlaceholderTypeExampleRequiredNotes{{BECH32_OR_LEGACY_ADDRESS}}stringbc1qxy2kgdygjrsqtzq2n0yrf2493...✅ if BTCPrefer Bech32 for lower fees{{ERC20_COMPATIBLE_ADDRESS}}string0x71C...✅ if ETHAlso accepts ERC-20 tokens{{PRIVACY_COIN_ADDRESS}}string48HhR...✅ if XMRMonero subaddress recommended{{OPTIONAL_QR_IMAGE_URL}}URLhttps://ezcleaner.dev/donate/btc-qr.png❌Host the QR yourself; don't use third-party generators{{OPTIONAL_DERIVATION}}stringm/44'/0'/0'/0/0❌BIP32/44/84 path for HD wallets{{TRANSACTION_VERIFICATION_INSTRUCTIONS}}stringVerify all transactions via blockstream.info explorer❌How donors can confirm receipt{{HOW_FUNDS_ARE_STORED_SECURITY_MEASURES}}stringHardware wallet (Ledger Nano S), multisig 2-of-3✅ if cryptoBuilds trust{{BLOCKCHAIN_EXPLORER_URL_IF_PUBLIC}}URLhttps://blockstream.info/address/bc1q...❌Public ledger link{{CRYPTO_DONATIONS_DISCLAIMER}}stringCrypto donations are non-refundable. Record the tx hash for your records.❌Legal note
+Corporate Sponsorship
+PlaceholderTypeExampleRequiredNotes{{true_or_false}} (accepts corp)booleantrue✅{{BUSINESS_INQUIRY_EMAIL}}emailsponsors@ezcleaner.dev✅ if acceptingRole alias preferred{{SPONSOR_1}}stringAcmeCorp❌Remove if none yet{{PLATINUM_GOLD_SILVER}}enumPlatinum❌Must match a sponsorship_levels name{{SPONSOR_LOGO_URL}}URLhttps://ezcleaner.dev/sponsors/acme.svg❌SVG preferred; ≤200px wide{{SPONSOR_WEBSITE}}URLhttps://acme.com❌{{CORPORATE_SPONSORSHIP_TERMS}}stringSponsorships are non-exclusive. Logo placement requires brand guide approval.❌Terms summary
+Grants & Competitions
+PlaceholderTypeExampleRequiredNotes{{true_or_false}} (has_applied)booleanfalse✅ per programTrack application status{{GRANT_APPLICATION_STATUS_AND_HISTORY}}stringApplied to NLNet in 2024 (declined). Exploring GSoC 2026.❌History log
+Use of Funds Breakdown
+PlaceholderTypeExampleRequiredNotes{{40}} (infra %)number35✅Must sum to 100 across all percentages{{30}} (dev %)number40✅{{15}} (community %)number10✅{{10}} (legal %)number5✅{{5}} (reserve %)number10✅{{SUMMARY_OF_BUDGET_ALLOCATION}}stringPrimary focus on maintainer sustainability and CI infrastructure❌Narrative for the split
+Financial Transparency
+PlaceholderTypeExampleRequiredNotes{{PATH_TO_FINANCIAL_REPORTS_OR_LINK}}path/URL./docs/financial-reports/❌Can be directory link{{MONTHLY/QUARTERLY/ANNUALLY}}enumquarterly✅Lowercase recommended{{AUDITOR_NAME_OR_NA}}stringN/A✅Or firm name if audited{{YYYY-MM-DD_OR_NA}} (audit date)date/NAN/A✅{{IF_CRYPTODO_USE_THIS_FIELD}}stringbc1qxy2kgdygjrsq...❌Only if crypto donations active{{TRANSPARENCY_POLICY_STATEMENT}}stringAll donation inflows and outflows are logged publicly each quarter...❌Policy declaration
+Tax & Legal
+PlaceholderTypeExampleRequiredNotes{{INDIVIDUAL/LLC/FOUNDATION/NON_PROFIT}}enumindividual✅Lowercase recommended{{COUNTRY_CODE}}stringDE✅ISO 3166-1 alpha-2{{DISCLAIMER_TEXT_ABOUT_FUND_USAGE}}stringDonations are gifts, not investments. No equity or promise of return...✅Protects against misclassification
+Milestone Goals
+PlaceholderTypeExampleRequiredNotes{{GOAL_TITLE}}stringFull-Time Maintainer for 2026✅Concrete, measurable{{AMOUNT}} (target)number36000✅Annual salary equivalent{{YYYY-MM-DD_OR_NEVER}} (deadline)date/NA2026-12-31 or never✅{{CURRENT_AMOUNT}}number14200✅Pledged/collected so far{{SPECIFIC_PURPOSE_1}}stringFull-time maintainer salary✅Itemized purposes{{CAMPAIGN_1}}stringCI Infrastructure Upgrade 2025❌Past campaign name{{START_TO_END}}string2025-03-01 to 2025-06-30❌Date range{{TARGET}} (campaign)number5000❌{{RAISED}}number4800❌{{LINK_TO_PUBLIC_PRODUCT_ROADMAP}}URLhttps://github.com/users/bilbywilby/projects/3❌
+Communication Channels
+PlaceholderTypeExampleRequiredNotes{{SLACK/DISCORD/TELEGRAM_URL}}URLhttps://discord.gg/ezcleaner❌Invitation link{{SUPPORT_EMAIL_ADDRESS}}emailhelp@ezcleaner.dev❌{{LINK_TO_GITHUB_GITLAB_ISSUES}}URLhttps://github.com/bilbywilby/ez_cleaner/issues❌{{SECURITY_EMAIL_OR_HOODIC}}email/stringsecurity@ezcleaner.dev or private✅If private, document PGP key location{{TWITTER_HANDLE_OR_NULL}}string/nullezcleaner or null❌Without @; null if not used{{MASTODON_INSTANCE_AND_HANDLE}}string@ezcleaner@fosstodon.org❌Full Fediverse handle{{COMPANY_PAGE_OR_NULL}}URL/nullhttps://linkedin.com/company/ezcleaner or null❌{{YOUTUBE_CHANNEL_OR_NULL}}URL/nullnull❌{{STREAMING_CHANNEL_OR_NULL}}URL/nullnull❌{{DISCORD_INVITE_LINK_OR_NULL}}URL/nullhttps://discord.gg/abc123 or null❌Duplicate of announcement if same
+Governance
+PlaceholderTypeExampleRequiredNotes{{DEMOCRATIC/BDFL/COMMITTEE}}enumBDFL✅{{WHO_DECIDES_HOW_MONEY_IS_SPENT}}stringPrimary maintainer consults advisory council quarterly✅Document the process{{YES_NO_OR_NUMBER_YEARS}}stringNo term limits or 2 years❌{{LINK_TO_ONBOARDING_DOCS}}URLhttps://github.com/bilbywilby/ez_cleaner/blob/main/CONTRIBUTING.md❌{{LINK_TO_GOVERNANCE_FILE}}URLhttps://github.com/bilbywilby/ez_cleaner/blob/main/GOVERNANCE.md❌{{GOVERNANCE_MODEL_SUMMARY}}stringBDFL model. Maintainer has final say on fund allocation. Advisory council of 3 sponsors provides input.❌
+Version Control
+PlaceholderTypeExampleRequiredNotes{{YYYY-MM-DD}} (last updated)date2026-08-05✅{{LINK_TO_CHANGES_IN_THIS_FILE}}URLhttps://github.com/bilbywilby/ez_cleaner/commits/main/FUNDING.json❌Git history link{{YYYY-MM-DD}} (next review)date2026-11-05✅Quarterly review recommended
+
+Validation Script (Enhanced)
+Save as validate_funding.py alongside your FUNDING.json:#!/usr/bin/env python3
+"""Validate FUNDING.json for schema completeness, placeholder residue, and percentage math."""
+import json, re, sys
+from datetime import date, datetime
+
+PLACEHOLDER_PATTERN = re.compile(r"\{\{[^}]+\}\}")
+PERCENTAGE_FIELDS = [
+    "infrastructure_costs_percentage",
+    "developer_compensation_percentage",
+    "community_support_percentage",
+    "legal_and_compliance_percentage",
+    "reserve_and_emergency_percentage",
+]
+DATE_FIELDS_PATTERNS = [
+    r"^\d{4}-\d{2}-\d{2}$",
+    r"^\d{4}$",
+]
+
+def load(path="FUNDING.json"):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"❌ File not found: {path}")
+        sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"❌ Invalid JSON: {e}")
+        sys.exit(1)
+
+def find_placeholders(obj, path="root"):
+    issues = []
+    if isinstance(obj, str):
+        for m in PLACEHOLDER_PATTERN.finditer(obj):
+            issues.append((path, m.group()))
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            issues.extend(find_placeholders(v, f"{path}.{k}"))
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            issues.extend(find_placeholders(v, f"{path}[{i}]"))
+    return issues
+
+def validate_percentages(data):
+    uf = data.get("use_of_funds_breakdown", {})
+    total = sum(uf.get(f, 0) for f in PERCENTAGE_FIELDS)
+    if total != 100:
+        return [f"⚠️  Percentages sum to {total}, expected 100"]
+    return []
+
+def validate_urls(data):
+    issues = []
+    # spot-check key URLs
+    repo = data.get("project", {}).get("repository_url", "")
+    if repo and not repo.startswith(("http://", "https://")):
+        issues.append(f"⚠️  repository_url is not a valid URL: {repo}")
+    for opt in data.get("funding_options", []):
+        if opt.get("active") is True:
+            url = opt.get("profile_url", "")
+            if url and not url.startswith(("http://", "https://")):
+                issues.append(f"⚠️  profile_url for {opt.get('platform_type')} is not HTTPS")
+    return issues
+
+def main():
+    data = load()
+    all_issues = []
+
+    # 1. Placeholder check
+    ph_issues = find_placeholders(data)
+    if ph_issues:
+        for path, ph in ph_issues[:20]:  # show first 20
+            all_issues.append(f"📌 Unfilled placeholder '{ph}' at {path}")
+        if len(ph_issues) > 20:
+            all_issues.append(f"... and {len(ph_issues) - 20} more unfilled placeholders")
+
+    # 2. Percentage check
+    all_issues.extend(validate_percentages(data))
+
+    # 3. URL check
+    all_issues.extend(validate_urls(data))
+
+    # 4. Boolean placeholder check (str instead of bool)
+    def check_bools(obj, path="root"):
+        issues = []
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if k == "active" or k.startswith("has_") or k == "tax_deductible" or "boolean" in k.lower():
+                    if isinstance(v, str) and v.strip() in ("{{true_or_false}}", "true", "false"):
+                        issues.append(f"⚠️  Boolean field at {path}.{k} is a string, not a JSON boolean")
+                if isinstance(v, (dict, list)):
+                    p = f"{path}.{k}" if isinstance(v, dict) else f"{path}.{k}"
+                    if isinstance(v, dict):
+                        issues.extend(check_bools(v, p))
+                    elif isinstance(v, list):
+                        for i, item in enumerate(v):
+                            if isinstance(item, dict):
+                                issues.extend(check_bools(item, f"{p}[{i}]"))
+        elif isinstance(obj, list):
+            for i, v in enumerate(obj):
+                if isinstance(v, dict):
+                    issues.extend(check_bools(v, f"{path}[{i}]"))
+        return issues
+
+    all_issues.extend(check_bools(data))
+
+    if all_issues:
+        print(f"\nFound {len(all_issues)} issue(s):\n")
+        for i in sorted(all_issues):
+            print(f"  {i}")
+        sys.exit(1)
+    else:
+        print("✅ FUNDING.json passes all checks")
+
+if __name__ == "__main__":
+    main()Run with: python3 validate_funding.py
+
+Best Practice Recommendations
+Security: Never store private keys, seed phrases, or derivation paths that could reconstruct a wallet. The hd_wallet_derivation_path field is informational only — it helps donors verify your setup, not reconstruct your wallet.
+Boolean placeholders: The most common template error is leaving {{true_or_false}} as a string instead of replacing it with an actual JSON boolean (true / false). The validator above catches this.
+Percentage arithmetic: All five *_percentage fields under use_of_funds_breakdown must sum to exactly 100. The validator enforces this.
+Tier benefit stacking: In practice, higher tiers should implicitly include lower-tier benefits. The template models this with {{ALL_TIER_1_BENEFITS}} as a reference string. An alternative is to repeat the full benefit arrays at each tier — more verbose but machine-parseable.
+Crypto addresses: Prefer Bech32 (bc1...) for Bitcoin, and consider subaddresses for Monero. Never reuse a personal wallet address; generate a dedicated donation address.
+Tax disclaimer: Even if you're an individual, include a clear statement that donations are non-deductible unless you hold nonprofit status. The legal_disclaimer field exists for this purpose.
+
+Recommended Workflow┌─────────────────────────────────────┐
+│  1. Copy FUNDING.json.template       │
+│  2. Fill all ✅ required placeholders │
+│  3. Set active: false on unused       │
+│     funding_options                   │
+│  4. Adjust use_of_funds percentages  │
+│     (must sum to 100)                │
+│  5. Run python3 validate_funding.py   │
+│  6. Set up .github/FUNDING.yml        │
+│     (for GitHub Sponsors button)      │
+│  7. Create GOVERNANCE.md             │
+│  8. Create CONTRIBUTING.md            │
+│  9. Set up financial reporting page   │
+│ 10. Commit + push                     │
+│ 11. Review quarterly (update dates!) │
+└─────────────────────────────────────┘
